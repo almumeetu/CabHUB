@@ -29,6 +29,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
 
 .img {
 	max-width: 100%;
@@ -308,6 +313,140 @@ header {
 	font-size: 12px;
 }
 /* Header CSS End Here */
+
+/* about CSS start HEre */
+.about {
+	background: #ffc61a;
+	margin-top: -107px;
+	padding: 125px;
+}
+.about .about-area .about-left h3 {
+	color: #101010;
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.about .about-area .about-left h2 {
+	color: #101010;
+	font-weight: 900;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.about .about-area .about-left p {
+	color: #101010;
+	padding-top: 15px;
+}
+.about .about-area .about-left .read-more a {
+	color: #fff;
+	background: #101010;
+	padding: 7px 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: .3s;
+}
+.about .about-area .about-left .read-more a:hover {
+	color: #101010;
+	background: #ffc61a ;
+	border: 1px solid #101010;
+	font-weight: 600;
+}
+.submit-btn {
+	color: #fff;
+	font-weight: bold;
+	background: #101010;
+	padding: 6px 30px;
+	border-radius: 4px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px !important;
+}
+.submit-btn:hover {
+	color: #ffc61a;
+}
+.about .about-area .about-right{
+	background-color: #fff;
+	max-width: 330px;
+	margin-top: 15px;
+}
+.about .about-area .about-right h1 {
+	color: #fff;
+	background: #010101;
+	font-weight: 700;
+	margin: 0;
+	padding: 8px 20px;
+}
+.about .about-area .about-right  h1 span {
+	color: #ffc61a;
+	font-weight: 700;
+	
+}
+.from-control {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #e4e4e4;
+	margin-top: 20px;
+}
+.form {
+	padding: 20px;
+}
+select.form-control:not([size]):not([multiple]) {
+	height: calc(2.25rem + 2px);
+	margin-top: 30px;
+}
+/* about CSS End HEre */
+
+/* Card CSS start Here */
+.card-area {	
+
+}
+.card-area .section-title {	
+
+}
+.card-area .section-title h2 {	
+	font-weight: bold;
+	color: #ffc61a;
+}
+.card-area .section-title h1 {	
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* Card CSS End Here */
+
+.card-content {
+	padding: 10px 40px;
+	background: #f5f4f2;
+	padding-top: 115px;
+}
+.card-thumb {
+	margin-bottom: -88px;
+}
+.card-content h3 {
+	color: #101010;
+	font-weight: bold;
+}
+.card-content p {
+	color: #101010;
+}
+.card-content h1 {
+	color: #ffc61a;
+	margin-bottom: 30px;
+}
+.card-content .read-more a{
+	color: #000;
+	background: #ffc61a;
+	padding: 10px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: .3s;
+	margin: 10px;
+}
+.card-content .read-more a:hover{
+	color: #ffc61a;
+	background: #000;
+}
 
 
 
