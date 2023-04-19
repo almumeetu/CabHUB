@@ -346,9 +346,9 @@ header {
 	transition: .3s;
 }
 .about .about-area .about-left .read-more a:hover {
-	color: #101010;
-	background: #ffc61a ;
-	border: 1px solid #101010;
+	color: #ffc61a;
+	background: #101010;
+	/* border: 1px solid #101010; */
 	font-weight: 600;
 }
 .submit-btn {
