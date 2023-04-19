@@ -24,11 +24,13 @@
 
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,700&family=Roboto:ital,wght@1,100;1,300&display=swap');
- body {
+
+body {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 }
+
 * {
 	padding: 0;
 	margin: 0;
@@ -39,15 +41,19 @@
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
 }
+
 .f-left {
 	float: left
 }
+
 .f-right {
 	float: right
 }
+
 .fix {
 	overflow: hidden
 }
+
 a,
 .button {
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -56,11 +62,13 @@ a,
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
+
 a:focus,
 .button:focus {
 	text-decoration: none;
 	outline: none;
 }
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -68,18 +76,29 @@ a:hover,
 	color: #2B96CC;
 	text-decoration: none;
 }
+
 a,
 button {
 	color: #1696e7;
 	outline: medium none;
 }
-button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+	outline: 0
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
+
 .capitalize {
 	text-transform: capitalize;
 }
+
 h1,
 h2,
 h3,
@@ -94,6 +113,7 @@ h6 {
 	font-weight: 400;
 	text-transform: normal;
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -102,32 +122,45 @@ h5 a,
 h6 a {
 	color: inherit;
 }
+
 h1 {
 	font-size: 40px;
 	font-weight: 500;
 }
+
 h2 {
 	font-size: 35px;
 }
+
 h3 {
 	font-size: 28px;
 }
+
 h4 {
 	font-size: 22px;
 }
+
 h5 {
 	font-size: 18px;
 }
+
 h6 {
 	font-size: 16px;
 }
+
 ul {
 	margin: 0px;
 	padding: 0px;
 }
+
+.section-title .text-black {
+	color: #101010;
+}
+
 li {
 	list-style: none
 }
+
 p {
 	font-size: 14px;
 	font-weight: normal;
@@ -135,46 +168,55 @@ p {
 	color: #7e7e7e;
 	margin-bottom: 15px;
 }
+
 hr {
 	border-bottom: 1px solid #eceff8;
 	border-top: 0 none;
 	margin: 30px 0;
 	padding: 0;
 }
+
 label {
 	color: #7e7e7e;
 	cursor: pointer;
 	font-size: 14px;
 	font-weight: 400;
 }
+
 *::-moz-selection {
 	background: #d6b161;
 	color: #fff;
 	text-shadow: none;
 }
+
 ::-moz-selection {
 	background: #444;
 	color: #fff;
 	text-shadow: none;
 }
+
 ::selection {
 	background: #444;
 	color: #fff;
 	text-shadow: none;
 }
+
 *::-moz-placeholder {
 	color: #555555;
 	font-size: 14px;
 	opacity: 1;
 }
+
 *::placeholder {
 	color: #555555;
 	font-size: 14px;
 	opacity: 1;
 }
+
 .theme-overlay {
 	position: relative
 }
+
 .theme-overlay::before {
 	background: #1696e7 none repeat scroll 0 0;
 	content: "";
@@ -185,9 +227,11 @@ label {
 	top: 0;
 	width: 100%;
 }
+
 .separator {
 	border-top: 1px solid #f2f2f2
 }
+
 /* button style */
 
 .btn {
@@ -211,9 +255,11 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
-.breadcrumb > .active {
+
+.breadcrumb>.active {
 	color: #888;
 }
+
 .owl-carousel .owl-nav div {
 	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
 	height: 40px;
@@ -228,14 +274,17 @@ label {
 	visibility: hidden;
 	width: 40px;
 }
+
 .owl-carousel .owl-nav div.owl-next {
 	left: auto;
 	right: 20px;
 }
+
 .owl-carousel:hover .owl-nav div {
 	opacity: 1;
 	visibility: visible;
 }
+
 .owl-carousel .owl-nav div:hover {
 	background: #2B96CC;
 	color: #fff
@@ -255,6 +304,7 @@ label {
 	font-size: 20px;
 	line-height: 34px;
 }
+
 #scrollUp:hover {
 	background: #444;
 }
@@ -265,29 +315,37 @@ header {
 	padding-top: 20px;
 	background-repeat: no-repeat;
 }
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #000;
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	color: #000;
 	background: #ffc61a;
 	font-weight: bold;
 	border-radius: 15px;
 	padding: 7px 18px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    font-weight: bold;
-    border-radius: 15px;
-    padding: 7px 18px;
-    transition: .3s;
-    font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 7px 18px;
+	transition: .3s;
+	font-size: 14px;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
 	background: #ffc61a;
 	color: #000;
 }
+
 .nav-item {
 	padding-left: 5px;
 }
-.header-info{
+
+.header-info {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -297,6 +355,7 @@ header {
 	margin: 0;
 	padding: 0;
 }
+
 .header-info h1 {
 	color: #fff;
 	font-weight: 900;
@@ -304,14 +363,16 @@ header {
 	margin: 0;
 	padding: 0;
 }
+
 .header-info span {
 	color: #fff;
-	letter-spacing:9px;
+	letter-spacing: 9px;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
 	font-size: 12px;
 }
+
 /* Header CSS End Here */
 
 /* about CSS start HEre */
@@ -320,22 +381,26 @@ header {
 	margin-top: -107px;
 	padding: 125px;
 }
+
 .about .about-area .about-left h3 {
 	color: #101010;
 	font-weight: 600;
 	font-size: 30px;
 	text-transform: uppercase;
 }
+
 .about .about-area .about-left h2 {
 	color: #101010;
 	font-weight: 900;
 	font-size: 45px;
 	text-transform: uppercase;
 }
+
 .about .about-area .about-left p {
 	color: #101010;
 	padding-top: 15px;
 }
+
 .about .about-area .about-left .read-more a {
 	color: #fff;
 	background: #101010;
@@ -345,12 +410,14 @@ header {
 	border-radius: 8px;
 	transition: .3s;
 }
+
 .about .about-area .about-left .read-more a:hover {
 	color: #ffc61a;
 	background: #101010;
 	/* border: 1px solid #101010; */
 	font-weight: 600;
 }
+
 .submit-btn {
 	color: #fff;
 	font-weight: bold;
@@ -362,14 +429,17 @@ header {
 	text-transform: uppercase;
 	margin-top: 30px !important;
 }
+
 .submit-btn:hover {
 	color: #ffc61a;
 }
-.about .about-area .about-right{
+
+.about .about-area .about-right {
 	background-color: #fff;
 	max-width: 330px;
 	margin-top: 15px;
 }
+
 .about .about-area .about-right h1 {
 	color: #fff;
 	background: #010101;
@@ -377,69 +447,79 @@ header {
 	margin: 0;
 	padding: 8px 20px;
 }
-.about .about-area .about-right  h1 span {
+
+.about .about-area .about-right h1 span {
 	color: #ffc61a;
 	font-weight: 700;
-	
+
 }
+
 .from-control {
 	width: 100%;
 	border: none;
 	border-bottom: 2px solid #e4e4e4;
 	margin-top: 20px;
 }
+
 .form {
 	padding: 20px;
 }
+
 select.form-control:not([size]):not([multiple]) {
 	height: calc(2.25rem + 2px);
 	margin-top: 30px;
 }
+
 /* about CSS End HEre */
 
 /* Card CSS start Here */
-.card-area {	
+.card-area {}
 
-}
-.card-area .section-title {	
+.card-area .section-title {}
 
-}
-.card-area .section-title h2 {	
+.card-area .section-title h2 {
 	font-weight: bold;
 	color: #ffc61a;
 }
-.card-area .section-title h1 {	
+
+.card-area .section-title h1 {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-/* Card CSS End Here */
+
 
 .card-content {
 	padding: 10px 40px;
 	background: #f5f4f2;
 	padding-top: 115px;
 }
+
 .card-thumb {
 	margin-bottom: -88px;
 }
+
 .card-content h3 {
 	color: #101010;
 	font-weight: bold;
 }
+
 .card-content p {
 	color: #101010;
 }
+
 .card-content h1 {
 	color: #ffc61a;
 	margin-bottom: 30px;
 	font-weight: bold;
 }
+
 .card-content-2 h1 {
 	color: #101010;
 	margin-bottom: 30px;
 	font-weight: bold;
 }
-.card-content .read-more a{
+
+.card-content .read-more a {
 	color: #000;
 	background: #ffc61a;
 	padding: 10px 20px;
@@ -449,14 +529,17 @@ select.form-control:not([size]):not([multiple]) {
 	transition: .3s;
 	margin: 10px;
 }
-.card-content .read-more a:hover{
+
+.card-content .read-more a:hover {
 	color: #ffc61a;
 	background: #000;
 }
+
 .card-content-2 {
 	background: #ffc61a;
 }
-.card-content .read-more-2 a{
+
+.card-content .read-more-2 a {
 	color: #fff;
 	background: #101010;
 	padding: 10px 20px;
@@ -466,27 +549,83 @@ select.form-control:not([size]):not([multiple]) {
 	transition: .3s;
 	margin: 10px;
 }
-.card-content .read-more-2 a:hover{
+
+.card-content .read-more-2 a:hover {
 	color: #ffc61a;
 }
+
 .card-2 {
 	position: relative;
 }
-.card-sort{
+
+.card-sort {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
+
+.section-title {
+	text-transform: uppercase;
+}
+
 .read-more {
 	padding-bottom: 30px;
 }
+
 .read-more-2 {
 	padding-bottom: 30px;
 }
 
+/* Card CSS End Here */
 
+/* Content CSS start here */
+.content {
+	background: url(/img/background/background-2.jpg);
+	padding: 60px 0;
+	background-size: cover;
+}
 
+.section-title h2 {
+	color: #ffc61a;
+}
 
+.section-title h1 {
+	color: #fff;
+}
 
+.content .content-thumb {
+	position: relative;
+}
 
+.content .content-thumb .content-info {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	padding: 0 25px;
+}
 
+.content .content-thumb .content-info h4 {
+	color: #ffc61a;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.content-thumb img {
+	margin-left: 80px;
+}
+.content .content-thumb .content-info p {
+	color: #fff;
+}
+
+.content .read-more-3 a {
+	color: #101010;
+	background: #ffc61a;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: .3s;
+	margin: 10px;
+}
+
+/* Content CSS End here */
