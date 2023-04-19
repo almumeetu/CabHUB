@@ -432,6 +432,12 @@ select.form-control:not([size]):not([multiple]) {
 .card-content h1 {
 	color: #ffc61a;
 	margin-bottom: 30px;
+	font-weight: bold;
+}
+.card-content-2 h1 {
+	color: #101010;
+	margin-bottom: 30px;
+	font-weight: bold;
 }
 .card-content .read-more a{
 	color: #000;
@@ -446,6 +452,36 @@ select.form-control:not([size]):not([multiple]) {
 .card-content .read-more a:hover{
 	color: #ffc61a;
 	background: #000;
+}
+.card-content-2 {
+	background: #ffc61a;
+}
+.card-content .read-more-2 a{
+	color: #fff;
+	background: #101010;
+	padding: 10px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: .3s;
+	margin: 10px;
+}
+.card-content .read-more-2 a:hover{
+	color: #ffc61a;
+}
+.card-2 {
+	position: relative;
+}
+.card-sort{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.read-more {
+	padding-bottom: 30px;
+}
+.read-more-2 {
+	padding-bottom: 30px;
 }
 
 
