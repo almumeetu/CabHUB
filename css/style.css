@@ -627,5 +627,9 @@ select.form-control:not([size]):not([multiple]) {
 	transition: .3s;
 	margin: 10px;
 }
+.content .read-more-3 a:hover {
+	color: #101010;
+	background: #fff;
+}
 
 /* Content CSS End here */
