@@ -25,6 +25,14 @@
         left: 110px;
         padding: 0;
     }
+    .downlode-content {
+        padding: 0 !important;
+    }
+    .testimonial {
+        padding: 20px 35px;
+        border-radius: 30px;
+    }
+
 }
 
 
@@ -48,6 +56,16 @@
     ul {
         margin-top: 25px;
     }
+    .downlode-content {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .downlode-thumb {
+        text-align: center;
+    }
+    .downlode-area {
+        padding-top: 0 !important;
+    }
 
 }
 
@@ -58,6 +76,9 @@
     }
     .about .about-area .about-left h2 {
         font-size: 37px;
+    }
+    .testimonial {
+        padding: 20px 50px;
     }
 }
 
@@ -82,6 +103,10 @@
     }
     .about .about-area .about-right {
        max-width: 295px;
+    }
+    .testimonial {
+        padding: 10px 15px;
+        border-radius: 30px;
     }
     
 }
