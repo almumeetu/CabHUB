@@ -108,5 +108,17 @@
         padding: 10px 15px;
         border-radius: 30px;
     }
+    .number-area .number h3{
+        font-size: 23px;
+    }
+    .number-area .number h1 {
+        font-size: 37px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .section-title h1 {
+        font-size: 32px;
+    }
     
 }

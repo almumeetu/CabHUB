@@ -689,3 +689,22 @@ select.form-control:not([size]):not([multiple]) {
 	color: #fff;
 }
 /* Testimonial css End here */
+
+/* Number CSS start Here */
+.number-area {
+	background: #ffc61a;
+	padding: 50px 0;
+}
+.number-area .number h3 {
+	color: #000000;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.number-area .number h1 {
+	color: #000000;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+/* Number CSS End Here */
